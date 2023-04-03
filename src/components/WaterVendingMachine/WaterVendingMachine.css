@@ -1,0 +1,29 @@
+.goal, .instruction {
+  text-align: center;
+  /* TODO: problema de margen agregado al contenedor padre */
+  margin: 20px 0px;
+}
+
+.goal {
+  font-size: 20px;
+}
+
+.instruction {
+  font-size: 18px;
+}
+
+.glass {
+  border: 3px solid #576CBC;
+  background-color: #fafafabf;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.405);
+}
+
+.big-glass-container {
+  display: flex;
+  justify-content: center;
+}
+
+.glasses-container {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,43 @@
+.big-glass {
+  width: 160px;
+  height: 320px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.big-glass .remained-space   {
+  outline: 3px solid hotpink;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: all ease .5s;
+}
+
+.remained-space .liters  {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.remained-space .remained  {
+  font-size: 15px;
+}
+
+.big-glass .filled-space  {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #82C3EC;
+  height: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: all ease .5s;
+}
